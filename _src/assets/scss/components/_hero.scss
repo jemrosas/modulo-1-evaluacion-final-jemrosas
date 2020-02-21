@@ -1,0 +1,57 @@
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/cover.jpg") no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  &__header {
+    width: 44px;
+    height: 44px;
+    background-color: $color-brand-4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__link {
+    padding: 14px;
+  }
+  &__title1 {
+    font: 42px $font-family-title;
+    color: $color-brand-2;
+    line-height: 55px;
+    text-align: center;
+  }
+  &__title2 {
+    font: 16px $font-family-text;
+    color: $color-brand-2;
+    text-align: center;
+    margin-bottom: 143px;
+  }
+  &__scroll-down {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: $color-brand-2;
+  }
+}
+/*
+.content {
+  display: flex;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}*/
+
+.content {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
