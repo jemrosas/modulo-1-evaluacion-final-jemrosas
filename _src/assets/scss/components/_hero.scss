@@ -20,7 +20,7 @@
     justify-content: center;
     align-items: center;
   }
-  &__link {
+  &__link-adalab {
     padding: 14px;
   }
   &__title1 {
@@ -28,30 +28,24 @@
     color: $color-brand-2;
     line-height: 55px;
     text-align: center;
+    text-transform: uppercase;
   }
   &__title2 {
     font: 16px $font-family-text;
     color: $color-brand-2;
+    margin-top: 10px;
     text-align: center;
-    margin-bottom: 143px;
   }
   &__scroll-down {
     width: 45px;
     height: 45px;
     border-radius: 50%;
     background-color: $color-brand-2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 53px;
+    padding: 18px 13px 15px 12px;
   }
-}
-/*
-.content {
-  display: flex;
-  position: absolute;
-  top: 25%;
-  left: 25%;
-}*/
-
-.content {
-  display: block;
-  justify-content: center;
-  align-items: center;
 }
