@@ -36,12 +36,11 @@
     text-align: center;
 
     @media all and (min-width: $display-m) {
-      padding: 0;
+      padding: 0px 0px 0px 35.7px;
       grid-column: 1 / 2;
-      margin-left: 35.7px;
     }
     @media all and (min-width: $display-l) {
-      margin-left: 81.2px;
+      padding: 0px 0px 0px 81.2px;
     }
   }
 
@@ -50,12 +49,11 @@
     text-align: center;
 
     @media all and (min-width: $display-m) {
-      margin: 0px 27.7px;
-      padding: 0px;
+      padding: 0px 27.7px;
       grid-column: 2 / 3;
     }
     @media all and (min-width: $display-l) {
-      margin: 0px 26.2px;
+      padding: 0px 26.2px;
     }
   }
 
@@ -65,11 +63,10 @@
 
     @media all and (min-width: $display-m) {
       grid-column: 3 / 4;
-      padding: 0;
-      margin-right: 35.7px;
+      padding: 0px 35.7px 0px 0px;
     }
     @media all and (min-width: $display-l) {
-      margin-right: 81.2px;
+      padding: 0px 81.2px 0px 0px;
     }
   }
 
