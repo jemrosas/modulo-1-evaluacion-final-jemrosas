@@ -36,6 +36,7 @@
     text-align: center;
 
     @media all and (min-width: $display-m) {
+      padding: 0;
       grid-column: 1 / 2;
       margin-left: 35.7px;
     }
@@ -50,6 +51,7 @@
 
     @media all and (min-width: $display-m) {
       margin: 0px 27.7px;
+      padding: 0px;
       grid-column: 2 / 3;
     }
     @media all and (min-width: $display-l) {
@@ -63,6 +65,7 @@
 
     @media all and (min-width: $display-m) {
       grid-column: 3 / 4;
+      padding: 0;
       margin-right: 35.7px;
     }
     @media all and (min-width: $display-l) {
