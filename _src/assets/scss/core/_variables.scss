@@ -10,43 +10,10 @@ $color-brand-7: #4a4a4a;
 
 /* TYPOGRAPHY */
 
-// Font-family //
-
 $font-family-title: "Roboto Slab", sans-serif;
 $font-family-text: "Roboto", sans-serif;
 
-// Font-size --> Articles //
+/* DISPLAYS */
 
-$font-size-article-title1-mobile: 24px;
-$font-size-article-title1-tablet: 26px;
-$font-size-article-title1-desktop: 32px;
-
-$font-size-article-title2-mobile: 18px;
-$font-size-article-title2-tablet_desktop: 24px;
-
-$font-size-article-subtitle-mobile_tablet: 14px;
-$font-size-article-subtitle-desktop: 16px;
-
-$font-size-article-text-mobile: 18px;
-$font-size-article-text-tablet_desktop: 20px;
-
-$font-size-article-button: 20px;
-
-// Font-size --> Footer //
-
-$font-size-footer-nav: 16px;
-$font-size-footer-copy: 14px;
-
-// Line-height --> Articles //
-
-$line-height-article-title1-mobile: 30px;
-$line-height-article-title1-tablet_desktop: 45px;
-
-$line-height-article-title2: 30px;
-$line-height-article-subtitle: 30px;
-$line-height-article-text: 30px;
-$line-height-article-button: 45px;
-
-// Line-height --> Footer //
-
-$line-height-footer: 30px;
+$display-m: 768px;
+$display-l: 1200px;

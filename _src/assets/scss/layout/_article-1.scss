@@ -1,0 +1,48 @@
+.article1 {
+  width: 100%;
+  padding: 30px 15px 45px;
+
+  @media all and (min-width: $display-m) {
+    padding: 30px 39px 60px;
+  }
+  @media all and (min-width: $display-l) {
+    padding: 60px 275px;
+  }
+
+  &__subtitle {
+    color: $color-brand-4;
+    font-family: $font-family-text;
+    text-transform: capitalize;
+    @include text(14px, 30px);
+
+    @media all and (min-width: 1200px) {
+      @include text(16px, 30px);
+    }
+  }
+
+  &__title1 {
+    color: $color-brand-1;
+    font-family: $font-family-title;
+    text-transform: capitalize;
+    @include text(24px, 30px);
+
+    @media all and (min-width: $display-m) {
+      @include text(26px, 45px);
+    }
+    @media all and (min-width: $display-l) {
+      font-size: 32px;
+    }
+  }
+
+  &__content {
+    color: $color-brand-7;
+    font-family: $font-family-text;
+    margin: 15px 0px 30px;
+    @include text(18px, 30px);
+
+    @media all and (min-width: $display-m) {
+      margin: 30px 0px 30px;
+      font-size: 20px;
+    }
+  }
+}

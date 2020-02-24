@@ -1,0 +1,66 @@
+.article1__button {
+  width: 76px;
+  background-color: $color-brand-2;
+  border-radius: 22.5px;
+  border: 2px solid $color-brand-3;
+  cursor: pointer;
+  color: $color-brand-3;
+  font-family: $font-family-text;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+
+  @media all and (min-width: $display-m) {
+    width: 91px;
+  }
+  @media all and (min-width: $display-l) {
+    width: 160px;
+  }
+
+  &:hover {
+    background-color: $color-brand-4;
+    transition: color ease 2s;
+    transition: background-color ease 1s;
+    border-radius: 50px;
+  }
+  &:active {
+    background-color: $color-brand-6;
+    position: relative;
+    top: 1px;
+    border: dotted;
+  }
+}
+
+.article2__button {
+  width: 184px;
+  background-color: $color-brand-3;
+  border-radius: 22.5px;
+  border: 0px;
+  cursor: pointer;
+  color: $color-brand-2;
+  font-family: $font-family-text;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+
+  @media all and (min-width: $display-m) {
+    width: 210px;
+  }
+  @media all and (min-width: $display-l) {
+    width: 255px;
+  }
+
+  &:hover {
+    background-color: $color-brand-4;
+    color: $color-brand-3;
+    transition: color ease 2s;
+    transition: background-color ease 1s;
+    border-radius: 50px;
+  }
+  &:active {
+    background-color: $color-brand-6;
+    position: relative;
+    top: 1px;
+    padding: 10px;
+  }
+}

@@ -25,36 +25,34 @@
   }
 
   &__title1 {
-    font: 42px $font-family-title;
+    font-family: $font-family-title;
     color: $color-brand-2;
-    line-height: 55px;
+    @include text(42px, 55px);
     text-align: center;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
 
-    @media all and (min-width: 768px) {
-      font-size: 80px;
-      line-height: 106px;
+    @media all and (min-width: $display-m) {
+      @include text(80px, 106px);
     }
 
-    @media all and (min-width: 1200px) {
-      font-size: 100px;
-      line-height: 132px;
+    @media all and (min-width: $display-l) {
+      @include text(100px, 132px);
     }
   }
 
   &__title2 {
-    font: 16px $font-family-text;
+    font-family: $font-family-text;
     color: $color-brand-2;
+    @include text(18px, 30px);
     margin-top: 10px;
     text-align: center;
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: $display-m) {
       font-size: 24px;
-      margin-top: 20px;
     }
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: $display-l) {
       margin-top: 0px;
     }
   }
@@ -70,12 +68,12 @@
     margin-top: 45px;
     margin-bottom: 53px;
 
-    @media all and (min-width: 768px) {
+    @media all and (min-width: $display-m) {
       margin-top: 30px;
       margin-bottom: 45px;
     }
 
-    @media all and (min-width: 1200px) {
+    @media all and (min-width: $display-l) {
       margin-bottom: 13px;
     }
   }

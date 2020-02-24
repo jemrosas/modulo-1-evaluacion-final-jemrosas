@@ -1,0 +1,97 @@
+.article2 {
+  width: 100%;
+  background: $color-brand-5;
+  display: grid;
+  grid-template-rows: 105px 138px 138px 138px 105px;
+
+  @media all and (min-width: $display-m) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 120px 172px 105px;
+  }
+  @media all and (min-width: $display-l) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 172px 105px;
+  }
+
+  &__title1 {
+    padding-top: 30px;
+    color: $color-brand-1;
+    font-family: $font-family-title;
+    text-transform: capitalize;
+    text-align: center;
+    @include text(24px, 30px);
+
+    @media all and (min-width: $display-m) {
+      @include text(26px, 45px);
+      grid-column: 1 / 4;
+    }
+    @media all and (min-width: $display-l) {
+      font-size: 32px;
+      grid-column: 1 / 4;
+    }
+  }
+
+  &__container1 {
+    @media all and (min-width: $display-m) {
+      grid-column: 1 / 2;
+      margin-left: 21.85px;
+    }
+    @media all and (min-width: $display-l) {
+      margin-left: 68.1px;
+    }
+  }
+
+  &__container2 {
+    @media all and (min-width: $display-m) {
+      grid-column: 2 / 3;
+    }
+  }
+
+  &__container3 {
+    @media all and (min-width: $display-m) {
+      grid-column: 3 / 4;
+      margin-right: 21.85px;
+    }
+    @media all and (min-width: $display-l) {
+      margin-right: 68.1px;
+    }
+  }
+
+  &__title2 {
+    color: $color-brand-1;
+    font-family: $font-family-title;
+    @include text(18px, 30px);
+    text-align: center;
+
+    @media all and (min-width: $display-m) {
+      font-size: 24px;
+    }
+  }
+
+  &__content {
+    color: $color-brand-1;
+    font-family: $font-family-text;
+    margin: 0px 68px;
+    @include text(18px, 30px);
+    text-align: center;
+
+    @media all and (min-width: $display-m) {
+      margin: 0px 13.85px;
+      font-size: 20px;
+    }
+    @media all and (min-width: $display-l) {
+      margin: 0px 13.1px;
+    }
+  }
+
+  &__button {
+    margin-bottom: 60px;
+    align-self: center;
+    justify-self: center;
+    text-transform: capitalize;
+
+    @media all and (min-width: $display-m) {
+      grid-column: 2 / 3;
+    }
+  }
+}
