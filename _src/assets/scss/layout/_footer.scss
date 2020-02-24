@@ -13,18 +13,20 @@
   &__scroll-up {
     width: 45px;
     height: 45px;
-    padding: 20px;
     border-radius: 50%;
     background-color: $color-brand-2;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: initial;
     top: 0%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  &__link-hero {
+    padding: 13px 12px 8px;
   }
 
   &__content {

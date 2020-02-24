@@ -14,7 +14,7 @@
   }
 
   &__title1 {
-    padding-top: 30px;
+    padding: 30px 0px 45px;
     color: $color-brand-1;
     font-family: $font-family-title;
     text-transform: capitalize;
@@ -32,28 +32,41 @@
   }
 
   &__container1 {
+    padding: 0px 70px;
+    text-align: center;
+
     @media all and (min-width: $display-m) {
       grid-column: 1 / 2;
-      margin-left: 21.85px;
+      margin-left: 35.7px;
     }
     @media all and (min-width: $display-l) {
-      margin-left: 68.1px;
+      margin-left: 81.2px;
     }
   }
 
   &__container2 {
+    padding: 0px 70px;
+    text-align: center;
+
     @media all and (min-width: $display-m) {
+      margin: 0px 27.7px;
       grid-column: 2 / 3;
+    }
+    @media all and (min-width: $display-l) {
+      margin: 0px 26.2px;
     }
   }
 
   &__container3 {
+    padding: 0px 70px;
+    text-align: center;
+
     @media all and (min-width: $display-m) {
       grid-column: 3 / 4;
-      margin-right: 21.85px;
+      margin-right: 35.7px;
     }
     @media all and (min-width: $display-l) {
-      margin-right: 68.1px;
+      margin-right: 81.2px;
     }
   }
 
@@ -65,22 +78,17 @@
 
     @media all and (min-width: $display-m) {
       font-size: 24px;
+      padding-bottom: 14px;
     }
   }
 
   &__content {
     color: $color-brand-1;
     font-family: $font-family-text;
-    margin: 0px 68px;
     @include text(18px, 30px);
-    text-align: center;
 
     @media all and (min-width: $display-m) {
-      margin: 0px 13.85px;
       font-size: 20px;
-    }
-    @media all and (min-width: $display-l) {
-      margin: 0px 13.1px;
     }
   }
 
