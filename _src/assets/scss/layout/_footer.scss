@@ -98,13 +98,13 @@
   }
 }
 
-.bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+.bounce-up {
+  -moz-animation: bounce-up 2s infinite;
+  -webkit-animation: bounce-up 2s infinite;
+  animation: bounce-up 2s infinite;
 }
 
-@keyframes bounce {
+@keyframes bounce-up {
   0%,
   20%,
   50%,
@@ -113,9 +113,9 @@
     transform: translateY(0);
   }
   40% {
-    transform: translateY(-12px);
+    transform: translateY(-10px);
   }
   60% {
-    transform: translateY(-5px);
+    transform: translateY(-4px);
   }
 }
