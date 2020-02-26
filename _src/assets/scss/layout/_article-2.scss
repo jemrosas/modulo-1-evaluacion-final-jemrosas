@@ -93,12 +93,13 @@
   }
 
   &__button {
-    margin-bottom: 60px;
+    margin: 20px 0px 60px;
     align-self: center;
     justify-self: center;
     text-transform: capitalize;
 
     @media all and (min-width: $display-m) {
+      margin: 0px 0px 60px;
       grid-column: 2 / 3;
     }
   }

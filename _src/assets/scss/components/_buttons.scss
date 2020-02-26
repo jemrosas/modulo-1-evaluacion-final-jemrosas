@@ -18,7 +18,8 @@
   }
 
   &:hover {
-    background-color: $color-brand-4;
+    background-color: $color-brand-3;
+    color: $color-brand-2;
     transition: color ease 2s;
     transition: background-color ease 1s;
     border-radius: 50px;
@@ -33,11 +34,11 @@
 
 .article2__button {
   width: 184px;
-  background-color: $color-brand-3;
+  background-color: $color-brand-2;
   border-radius: 22.5px;
-  border: 0px;
+  border: 2px solid $color-brand-3;
   cursor: pointer;
-  color: $color-brand-2;
+  color: $color-brand-3;
   font-family: $font-family-text;
   font-size: 20px;
   font-weight: 500;
@@ -51,8 +52,8 @@
   }
 
   &:hover {
-    background-color: $color-brand-4;
-    color: $color-brand-3;
+    background-color: $color-brand-3;
+    color: $color-brand-2;
     transition: color ease 2s;
     transition: background-color ease 1s;
     border-radius: 50px;
