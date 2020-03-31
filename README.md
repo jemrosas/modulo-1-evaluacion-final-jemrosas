@@ -1,2 +1,2 @@
-![Adalab](_src/assets/images/cover.png)
+![Adalab](_src/assets/images/cover.jpg)
 
